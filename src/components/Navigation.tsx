@@ -8,17 +8,17 @@ function Navigation() {
         <div className="navigation-content flex items-center justify-between h-16">
           <Link to="/" className="navigation-logo-link flex items-center space-x-2">
             <img 
-              src="/logos/logo.png" 
+              src="/public/logos/logo.png" 
               alt="Janta Engineering Works Logo" 
               className="navigation-logo h-8 w-8"
             />
             <span className="navigation-title font-bold text-xl">Janta Engineering Works</span>
           </Link>
           <div className="navigation-links hidden md:flex space-x-8">
-            <Link to="/about" className="nav-link hover:text-blue-200">About</Link>
-            <Link to="/services" className="nav-link hover:text-blue-200">Services</Link>
-            <Link to="/projects" className="nav-link hover:text-blue-200">Projects</Link>
-            <Link to="/contact" className="nav-link hover:text-blue-200">Contact</Link>
+            <Link to="/about" className="nav-link hover:text-blue-200 hover:scale-105 transition duration-150">About</Link>
+            <Link to="/services" className="nav-link hover:text-blue-200 hover:scale-105 transition duration-150">Services</Link>
+            <Link to="/projects" className="nav-link hover:text-blue-200 hover:scale-105 transition duration-150">Projects</Link>
+            <Link to="/contact" className="nav-link hover:text-blue-200 hover:scale-105 transition duration-150">Contact</Link>
           </div>
         </div>
       </div>

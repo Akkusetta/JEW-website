@@ -123,7 +123,7 @@ function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Our Capabilities</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
               <Wrench className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Equipment</h3>
               <ul className="space-y-2 text-gray-600">
@@ -133,7 +133,7 @@ function Services() {
                 <li>Advanced Welding Machinery</li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
               <Settings className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Facilities</h3>
               <ul className="space-y-2 text-gray-600">
@@ -143,7 +143,7 @@ function Services() {
                 <li>Modern Testing Equipment</li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
               <HardHat className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Power Backup</h3>
               <ul className="space-y-2 text-gray-600">
@@ -162,7 +162,7 @@ function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your Project?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Let's work together to bring your vision to life. Our team of experts is ready to help you achieve your infrastructure goals.</p>
-          <Link to="/contact" className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-100 transition duration-300">
+          <Link to="/contact" className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:scale-105 transition duration-300 hover:bg-blue-100">
             Contact Us Today
           </Link>
         </div>

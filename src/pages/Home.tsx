@@ -22,13 +22,13 @@ function Home() {
                   <span>jantaeworks@gmail.com</span>
                 </div>
               </div>
-              <div className="mt-8">
-                <Link to="/contact" className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-100 transition duration-300">
+              <div className="mt-8 hover:scale-105 transform origin-center transition duration-300">
+                <Link to="/contact" className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold transition duration-300">
                   Get in Touch
                 </Link>
               </div>
             </div>
-            <div className="mt-12 lg:mt-0">
+            <div className="mt-12 lg:mt-0 hover:scale-105 transition-transform duration-300">
               <img 
                 src="/logos/logo.png" 
                 alt="Janta Engineering Works Logo" 
@@ -44,19 +44,19 @@ function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Our Expertise</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
               <Droplets className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Hydro-Mechanical Works</h3>
               <p className="mb-4">Specialized expertise in dam construction, maintenance, and water infrastructure projects.</p>
               <Link to="/services" className="text-blue-900 font-semibold hover:text-blue-700">Learn more →</Link>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
               <HardHat className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Fabrication & Erection</h3>
               <p className="mb-4">Professional fabrication and erection services for various industrial applications.</p>
               <Link to="/services" className="text-blue-900 font-semibold hover:text-blue-700">Learn more →</Link>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
               <Users className="h-12 w-12 text-blue-900 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Tankages Works</h3>
               <p className="mb-4">Expert solutions for storage tank construction and maintenance.</p>
@@ -110,7 +110,7 @@ function Home() {
       <div className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Our Financial Growth</h2>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto rounded-lg">
             <table className="min-w-full bg-white rounded-lg shadow">
               <thead>
                 <tr className="bg-blue-900 text-white">
@@ -150,7 +150,7 @@ function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your Project?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Let's work together to bring your vision to life. Our team of experts is ready to help you achieve your infrastructure goals.</p>
-          <Link to="/contact" className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-100 transition duration-300">
+          <Link to="/contact" className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:scale-105 transition duration-300 hover:bg-blue-100">
             Contact Us Today
           </Link>
         </div>
